@@ -1,0 +1,103 @@
+body{
+  background-image: url(sfondoscooter.jpg);
+  background-size: cover;
+}
+
+.container{
+  width: 900px;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  position: absolute;
+  top: 55%;
+  left:50%;
+  margin-top: -250px;
+  margin-left: -450px;
+}
+
+/* logo e titolo */
+.header{
+  width: auto;
+}
+.box-logo{
+  width: 900px;
+  height: 90px;
+}
+.logo{
+  width: 180px;
+  margin: auto;
+  position: absolute;
+  margin-left: 40%;
+}
+
+.titolo{
+text-align: center;
+color: rgb(30, 220, 20);
+margin: 0px;
+}
+
+/* input prenotazioni */
+.box-input{
+  width: 700px;
+  height: 30px;
+  background-color: rgb(30, 220, 20);
+  margin: auto;
+}
+.input{
+  width: 320px;
+  margin: auto;
+  position:relative;
+  top: 4px;
+}
+
+/* menu */
+/* posizionamento e scritte */
+.monopattino{
+  position: relative;
+  left: 100px;
+  top: 30px;
+}
+.info-monopattino{
+  color: white;
+}
+
+/* monopattini */
+/* gino */
+.gino{
+  display: inline-block;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.batteria-gino{
+  width: 250px;
+  height: 22px;
+  background-color: rgb(255, 165, 0);
+  border-radius: 3px;
+}
+/* mike */
+.mike{
+  display: inline-block;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.batteria-mike{
+  width: 450px;
+  height: 22px;
+  background-color: rgb(10, 240, 50);
+  border-radius: 3px;
+}
+/* fede */
+.fede{
+  display: inline-block;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.batteria-fede154{
+  width: 125px;
+  height: 22px;
+  background-color: rgb(250, 70, 100);
+  border-radius: 3px;
+}
